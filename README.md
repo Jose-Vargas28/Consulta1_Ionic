@@ -7,8 +7,11 @@ Splash Screen
 AndroidManifest.xml
 
 1.- Abrimos la terminal y ejecutamos el siguiente comando: ionic start Icono tabs --type=angular
+
 2.- Luego cd Icono para ir a la carpeta creada
+
 3.-Luego ponemos ionic serve para probar en la web
+
 4.- Luego agregamos android capacitor: 
 ionic capacitor add android
 npx cap sync android
