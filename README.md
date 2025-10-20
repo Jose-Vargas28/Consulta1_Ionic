@@ -12,13 +12,17 @@ AndroidManifest.xml
 4.- Luego agregamos android capacitor: 
 ionic capacitor add android
 npx cap sync android
+
 5.- Luego creamos  la carpeta resources en la raíz del proyecto (miApp/), ahí van a ir las imágens icon y splash.
+
 6.- Luego generamos los recursos automáticamente con: npx @capacitor/assets generate
 Con esto creamos todos los tamaños de icono (mipmap-*) y splash (drawable-*) para Android
+
 7.- Compilamos y sincronizamos antes de Android Studio:
 ionic build
 npx cap copy android
 npx cap sync android
+
 8.- Abrimos android studio con:
 npx cap open android
 
